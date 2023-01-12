@@ -1,5 +1,5 @@
 .about{
-    background:rgb(233, 108, 24);
+    background: linear-gradient(110.1deg, rgb(241, 115, 30) 18.9%, rgb(231, 29, 54) 96.7%);
     height:200vh;
     margin:35px 50px;
     border-radius: 10px;
@@ -20,7 +20,7 @@
     }
     p{
         margin-top: 30px;
-        
+        letter-spacing: 0.05rem;
         color: lightgray;
     }
     button{
@@ -32,16 +32,29 @@
         color:white;
         opacity:0.8;
         font-size: 1rem;
+
     }  
     button:hover{
         opacity:0.7;
+        padding:20px 26px;
     }
     }
     .right{
         margin: 200px 150px 0 0;
 img{
-    height:375px;
-    width:375px;
+    height:400px;
+    width:400px;
+        -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2.2s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
 }
 
     }
