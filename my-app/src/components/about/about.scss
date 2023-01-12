@@ -1,6 +1,6 @@
 .about{
-    background: linear-gradient(110.1deg, rgb(241, 115, 30) 18.9%, rgb(231, 29, 54) 96.7%);
-    height:200vh;
+    background: linear-gradient(to bottom, rgb(241, 115, 30) 15.9%, rgb(231, 76, 29) 96.7%);
+    height:120vh;
     margin:35px 50px;
     border-radius: 10px;
     display:flex;
@@ -50,11 +50,11 @@ img{
 
 @-webkit-keyframes mover {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
+    100% { transform: translateY(-25px); }
 }
 @keyframes mover {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
+    100% { transform: translateY(-25px); }
 }
 
     }

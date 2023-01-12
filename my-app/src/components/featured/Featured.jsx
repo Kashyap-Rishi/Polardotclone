@@ -3,10 +3,10 @@ import './featured.scss'
 const Featured = () => {
   return (
     <div className="container">
-    <div class ="left">
+    <div className ="left">
 
     </div>
-    <div class="right">
+    <div className="right">
         
     </div>
     </div>
