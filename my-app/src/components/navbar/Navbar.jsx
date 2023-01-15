@@ -27,7 +27,6 @@ const Navbar = () => {
             
             
            <span>Our Services</span>
-          
            <span>Works</span>
            <span>Gallery</span>
            <span>FAQs</span>
