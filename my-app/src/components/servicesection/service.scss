@@ -1,0 +1,242 @@
+.addBackgroundImage{
+    margin-top:100px;
+    z-index:-1
+}
+.ServiceSection{
+    padding-top: 100px;
+}
+.ServiceHeading{
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+.serviceSection{
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.firstHeading{
+    width: 250px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 10px solid;
+    border-color: #fff;
+   
+}
+.belowContent{
+    margin-left: 20px;
+    color: #9da6af;
+    font-size: 16px;
+}
+.firstService{
+    width: 350px;
+    height: 158px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.secondService{
+    width: 350px;
+    height: 109px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.thirdService{
+    width: 350px;
+    height: 133.5px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.fourthService{
+    width: 350px;
+    height: 157.9px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fifthService{
+    width: 350px;
+    height: 109.5px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.addBackgroundImage{
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/assets/img/b276c392cf4d169e1c467e7c0cffb63f8118082d/pattern-1.png");
+    width: 1339.2px;
+    height: 1433.9px;
+    margin-left: 50px;
+}
+.toggleservices{
+    width:400px
+}
+.serviceImages{
+    float: right;
+    
+}
+.playanimation1{
+    animation-duration: 2s;
+    animation-name:slidein1;
+}
+@keyframes slidein1 {
+    from{
+        margin-top: 50px;
+        opacity: 0;
+    }
+    to{
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+.playanimation2{
+    animation-duration: 2s;
+    animation-name:slidein2;
+}
+@keyframes slidein2 {
+    from{
+        margin-top: 50px;
+        opacity: 0;
+    }
+    to{
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+.playanimation3{
+    animation-duration: 2s;
+    animation-name:slidein3;
+}
+@keyframes slidein3 {
+    from{
+        margin-top: 50px;
+        opacity: 0;
+    }
+    to{
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+.playanimation4{
+    animation-duration: 2s;
+    animation-name:slidein4;
+}
+@keyframes slidein4 {
+    from{
+        margin-top: 50px;
+        opacity: 0;
+    }
+    to{
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+
+.playanimation5{
+    animation-duration: 2s;
+    animation-name:slidein4;
+}
+@keyframes slidein5 {
+    from{
+        margin-top: 50px;
+        opacity: 0;
+    }
+    to{
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+
+.Collaborators{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.proj{
+    border-radius: 8px;
+}
+
+.Projects{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
+.project2{
+    margin-right: 30px;
+}
+.project1{
+    margin-right: 20px;
+}
+.project3{
+    margin-right: 10px;
+}
+
+.smallText{
+    margin-left: 120px;
+}
+.largeText{
+    margin-left: 120px;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+.proj{
+    margin-bottom: 20px;
+}
+.projhead{
+    font-weight: 500;
+    font-size: 20px;
+    width:350px;
+    height: 48px;
+    margin-top: 20px;
+}
+.projdescrip{
+    width:350px;
+    height: 48px;
+    margin-top: 20px;
+    color: #6c7a87;
+    font-size: 14px;
+    font-weight: 400;
+}
+.proj1img{
+    overflow: hidden;
+    border-radius: 8px;
+    width:350px; 
+    height:219px;
+}
+.proj2img{
+    overflow: hidden;
+    border-radius: 8px;
+    width:350px; 
+    height:219px;
+}
+.proj3img{
+    overflow: hidden;
+    border-radius: 8px;
+    width:350px; 
+    height:219px;
+}
+
+.proj{
+    transition: transform 0.4s ease;
+    
+}
+.proj1img:hover .proj{
+    transform: scale(1.1);
+}
+.proj2img:hover .proj{
+    transform: scale(1.1);
+}
+.proj3img:hover .proj{
+    transform: scale(1.1);
+}

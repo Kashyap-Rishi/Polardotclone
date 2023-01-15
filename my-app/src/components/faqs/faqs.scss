@@ -1,0 +1,75 @@
+*{
+    margin:0
+}  
+.FaqSection{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 50px;
+    margin-top: 200px;
+    text-align: left;
+
+}
+.leftside{
+    width: 440px;
+}
+.Headingfaq{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+.Question{
+    font-weight: 500;
+}
+.fadedtext{
+    color:#6c7a87;
+    font-size: 1rem;
+}
+
+.card1{
+    text-align: justify;
+    padding-left: 20px;
+    border-radius: 8px;
+    padding-bottom: 45px;
+    width: 550px;
+    font-weight: 500;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    height: 40px;
+    background-color: rgba(49,209,171,.15);
+}
+.connectionicon{
+    margin-top: 5px;
+    height: 15px;
+    margin-right: 10px;
+    
+}
+.downarrow{
+    margin-top: 5px;
+    height: 15px;
+    margin-left: 240px;
+    margin-right: -40px;
+}
+.downarrow2{
+    margin-top: 5px;
+    height: 15px;
+    margin-left: 80px
+}
+.downarrow3{
+    margin-top: 5px;
+    height: 15px;
+    margin-left: 148px
+}
+.rightside{
+    width: 550px;
+}
+.card1span{
+    font-size: 14px!important;
+    color: #6c7a87!important;
+    font-weight: 400!important;
+}
+.serviceImages{
+    margin-top: -650px;
+    margin-right: 50px;
+}
