@@ -1,3 +1,4 @@
+
 /*                       <a href="#">
 <img src="https://d33wubrfki0l68.cloudfront.net/baac4803be79e5d2803f460838648153c841c6ee/5f152/assets/img/clients_logs/logo-1.png"></img>
 </a>
@@ -20,3 +21,16 @@
     <img src="https://d33wubrfki0l68.cloudfront.net/6a95d8de8215cba8d05a88c6ab88c9d1608c415b/73c6d/assets/img/clients_logs/logo-7.png"></img>
 </a>
 */
+
+import React from 'react'
+import './featured.scss'
+const Featured = () => {
+  return (
+    <div className="container">
+
+    </div>
+  )
+}
+
+export default Featured
+
