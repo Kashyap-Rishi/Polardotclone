@@ -17,15 +17,15 @@ import Services from './components/servicesection/Service';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Brands></Brands>
-      <Faq></Faq>
-      <Services></Services>
-      <Review></Review>
-       <Featured/>
-       <About/>
-       <Card/>
-       <Footer/>
+      <Navbar />
+      <Featured />
+      <About />
+      <Card />
+      <Brands/>
+      <Faq/>
+      <Services/>
+      <Review/>
+      <Footer/>
     </div>
   );
 }
