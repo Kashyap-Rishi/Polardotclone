@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div className="maincard" >
     <CardItems 
-    style={{ backgroundColor:'#EAFDFC'}}
+
     header="We build Powerful Brands✨
 "  image="images/polardotcard3updated.png"
    title="Create a Brand to STAND OUT!"
