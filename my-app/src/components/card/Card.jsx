@@ -6,8 +6,8 @@ const Card = () => {
     <div className="maincard" >
     <CardItems 
 
-    header="We build Powerful Brands✨
-"  image="images/polardotcard3updated.png"
+    header="We build Powerful Brands✨"  
+    image="https://d33wubrfki0l68.cloudfront.net/3baff01bf030b9140ed0ac65eaeded3dc413083b/3d382/assets/img/gif/waving_hand.gif"
    title="Create a Brand to STAND OUT!"
    desc="We create designs that wins. Resonating company’s personality and values with customers and nurtures relationships to gain a competitive edge in digital world."
     />

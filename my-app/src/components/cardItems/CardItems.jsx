@@ -6,7 +6,7 @@ const CardItems = (props) => {
 
 
   return (
-    <div className="card">
+    <div className="card" id={props.header=="We build Powerful Brands✨"?"card1":"card2"}>
     <div className="card_body">
 
     <div className="title">
