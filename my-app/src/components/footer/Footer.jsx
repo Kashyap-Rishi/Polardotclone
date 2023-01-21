@@ -3,6 +3,14 @@ import './footer.scss'
 
 const Footer = () => {
   return (
+    <div>
+    <div className="background">
+    <div className="connection">
+    <h2>Ready to Work?</h2>
+    <p>Want to start a Project? Branding, Website or Franchise, lets create something awesome together <b>Connect on WhatsApp.</b></p>
+    <a className="but">Start a project.</a>
+    </div>
+    </div>
     <div className="footer">
     <div id="stars"></div>
     <div id="stars2"></div>
@@ -49,6 +57,7 @@ const Footer = () => {
          <span>© 2019-2022 PolarDot. All Right Reseved</span>
          
         </div>
+    </div>
     </div>
     </div>
   )
