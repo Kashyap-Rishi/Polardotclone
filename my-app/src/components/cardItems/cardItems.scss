@@ -30,17 +30,50 @@
     }
 
         .card_title{
-            font-size: 1.25rem;
-            
-            line-height: 2.7rem;
+            font-size: 1.65rem;
+            font-weight: 800;
+            line-height: 1.7rem;
             letter-spacing: 0.035rem;
         }
 
         .card_desc{
             padding-top: 20px;
             letter-spacing: 0.04rem;
-            line-height: 1.35rem;
+            line-height: 1.25rem;
             color: gray;
         }
     }
+}
+#card1{
+    background-color: #29013e!important;
+    .card_desc{
+        padding-top: 20px;
+        letter-spacing: 0.04rem;
+        line-height: 1.35rem;
+        color: white;
+    }
+    .card_body{
+        display: flex;
+         flex-direction: column;
+        width:286px;
+        height: 68vh;
+        margin:20px;
+        color: white;
+    }
+    img{
+        width:80%;
+        height: 60%;
+        object-fit: cover;
+        
+    
+    }
+    .image{
+        padding:0;
+        margin-top: 160px;
+        margin-left: 2px;
+        align-items: center;
+    } 
+}
+#card2{
+    background-color: #E3F6FF!important;
 }
