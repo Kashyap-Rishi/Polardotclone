@@ -99,6 +99,7 @@
     animation-duration: 1s;
     transition: transform 0.5s ease;
     transform: scale(0.8);
+    
 }
 
 
@@ -151,4 +152,21 @@
     color: #9da6af;
     font-size: 13px;
     font-weight: 400;
+}
+.circleborder1{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.circleborder2{
+    width: 45px;
+    height: 42px;
+}
+.circleborder3{
+    width: 45px;
+    height: 42px;
+}
+.circleborder4{
+    width: 45px;
+    height: 42px;
 }

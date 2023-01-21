@@ -84,10 +84,10 @@ const Review = () => {
 
         </div>
         <div className="fourcircles">
-                    <div className="circle1" id="cir1" onClick={fillreview1}><img src="images/02.png" onClick={animation1} ></img></div>
-                    <div className="circle2" id="cir2" onClick={fillreview2}><img src="images/02.png" onClick={animation2}></img></div>
-                    <div className="circle3" id="cir3" onClick={fillreview3}><img src="images/02.png" onClick={animation3}></img></div>
-                    <div className="circle4" id="cir4" onClick={fillreview4}><img src="images/02.png" onClick={animation4}></img></div>
+                    <div className="circleborder1"><div className="circle1" id="cir1" onClick={fillreview1}><img src="images/02.png" onClick={animation1} ></img></div></div>
+                    <div className="circleborder2"><div className="circle2" id="cir2" onClick={fillreview2}><img src="images/02.png" onClick={animation2}></img></div></div>
+                    <div className="circleborder3"><div className="circle3" id="cir3" onClick={fillreview3}><img src="images/02.png" onClick={animation3}></img></div></div>
+                    <div className="circleborder4"><div className="circle4" id="cir4" onClick={fillreview4}><img src="images/02.png" onClick={animation4}></img></div></div>
                 </div>
 
         </div>
