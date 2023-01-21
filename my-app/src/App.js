@@ -13,7 +13,7 @@ import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Review from './components/review/Review';
 import Services from './components/servicesection/Service';
-import Connect from './components/connect/Connect';
+
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
       <Faq/>
       <Services/>
       <Review/>
-      <Connect/>
+      
 
       <Footer/>
     </div>

@@ -1,8 +1,100 @@
-.footer {
-    height: 770px;
-    overflow: hidden;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    position: relative;
+
+
+    .background{
+        position:absolute;
+   margin-top: -290px; 
+   margin-left: -30px; 
+          z-index:1;
+        height:42vh;
+        left:0;
+        width:88%;
+        border-radius: 40px;
+        
+        background-color:  rgb(247, 228, 211);
+        .connection{
+               
+                margin-left:500px;
+                width:40%;
+                h2{
+                        padding-top: 70px;
+                        padding-bottom: 25px;
+                        padding-left:125px;
+                        font-size: 1.8rem;
+                        font-weight: 600;
+          
+                }
+                p{
+                        
+                justify-items: center;
+                   font-size: 0.9rem;
+                    letter-spacing: 0.04rem;
+        
+                color: gray;
+                b{
+                        color:#fd7028; 
+                        font-weight: 400; 
+                }
+                padding-bottom:27px;
+                }
+                a{
+                        margin-left: 160px;
+                        background-color:#fd7028 ;
+                        color: white;
+                        padding:15px 20px;
+                        border-radius: 40px;
+                        font-size:0.9rem;
+                        cursor:pointer;
+        
+                
+        
+                
+                        
+            
+                
+        
+                }
+                a:hover {
+                        box-shadow: 0 0 0 0 rgb(163, 186, 221);
+                        transform: scale(1);
+                        animation: pulse 2s infinite;
+                        opacity: 0.9;
+                     /* Animate for 1.5 seconds on hover */
+                      }
+                      
+                
+                @keyframes pulse {
+                        0% {
+                                transform: scale(0.95);
+                                
+                        }
+                
+                        70% {
+                                transform: scale(1);
+                                box-shadow: 0 0 0 20px rgba(#5a99d4, 0);
+        
+                        }
+                
+                        100% {
+                                transform: scale(1);
+                                box-shadow: 0 0 0 0 rgba(#5a99d4, 0);
+                        }
+                }
+        
+        }
+
+    }
+
+        .footer {
+            height: 770px;
+            overflow: hidden;
+            background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+            position: relative;
+        
+        
+        
+
+
+
 
   h4{
     font-weight: 600;
@@ -473,8 +565,8 @@
                   }
                   button{
                     position: absolute;
-                    top:242px;
-                    left:1115px;
+                    top:230px;
+                    left:1073px;
                     padding: 12px;
                     border-radius: 5px;
                     background-color: #fd7028;
