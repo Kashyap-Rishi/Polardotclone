@@ -4,6 +4,15 @@ import './footer.scss'
 const Footer = () => {
   return (
     <div>
+                    <div className="bottom">
+                    <div className="loading">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+
+                    </div>
+                </div>
     <div className="background">
     <div className="connection">
     <h2>Ready to Work?</h2>
@@ -24,25 +33,25 @@ const Footer = () => {
     <div className="details">
     <span>Kulharia Complex, 106, Ashok Rajpath, Patna, Bihar 800004</span>
     
-    <span>Call us: +91 90451 87480</span>
-    <span>E-mail us: hello@polardot.in</span>
+    <span>Call us:<font color="#fd7028"> <b>+919045187480</b></font></span>
+    <span>E-mail us: <font color="#fd7028"> <b>hello@polardot.in</b></font></span>
     </div>
     
             </div>
             <div className="soc">
             <h4>Social</h4>
-            <span>Google Page</span>
-    <span>Facebook</span>
-    <span>Instagram</span>
-    <span>Behance</span>
+            <span className='hovereffect'>Google Page</span>
+    <span className='hovereffect'>Facebook</span>
+    <span className='hovereffect'>Instagram</span>
+    <span className='hovereffect'>Behance</span>
   
             </div>
             <div className="com">
             <h4>Company</h4>
-            <span>About Us</span>
-            <span>Contact Us</span>
-            <span>S+UM Architect and Interior Designer</span>
-            <span>FAQs</span>
+            <span className='hovereffect'>About Us</span>
+            <span className='hovereffect'>Contact Us</span>
+            <span className='hovereffect'>S+UM Architect and Interior Designer</span>
+            <span className='hovereffect'>FAQs</span>
             
 
             </div>

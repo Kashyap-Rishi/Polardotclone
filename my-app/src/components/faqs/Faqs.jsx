@@ -7,13 +7,15 @@ import $ from 'jquery';
 
 const Faq = () =>{
 
-    const a = 0
+    
     const [text,setText]=useState("")
+    const n = 0;
     function fillcard1(){
         setText("We build powerful Brands that wins. Complete Brand-Identity, Company/Brand Portfolio, Restaurant/Takeaway Franchise, Promotional Design, Web-Design, Online Business Profile, Investor Pitch and more. Connect with us to know more")
         setText2("")
         setText3("")
-        a = 1
+        n = 1;
+       
     }
     const [text2,setText2]=useState("")
     function fillcard2(){
@@ -46,7 +48,7 @@ const Faq = () =>{
                 <div className="card1">
                     <img src="images/icon.png" className="connectionicon"></img>
                     <div className="Question1">What Services do you offer?</div>
-                    <img src="images/downarrow.png" className={text?"downarrow":"uparrow"} id="arrow" onClick={text?removecard:fillcard1}></img>
+                    <img src="images/downarrow.png" className={text?"uparrow":"downarrow"} id="arrow" onClick={text?removecard:fillcard1}></img>
                 </div>
                 <span className="card1span">{text}</span>
                 
