@@ -26,8 +26,6 @@ function App() {
       <Faq/>
       <Services/>
       <Review/>
-      
-
       <Footer/>
     </div>
   );
