@@ -37,6 +37,10 @@ const Faq = () =>{
         
         
     }
+    
+
+  
+    
     return(
         <div className="FaqSection">
             <div className="leftside">
@@ -48,7 +52,7 @@ const Faq = () =>{
                 <div className="card1">
                     <img src="images/icon.png" className="connectionicon"></img>
                     <div className="Question1">What Services do you offer?</div>
-                    <img src="images/downarrow.png" className={text?"uparrow":"downarrow"} id="arrow" onClick={text?removecard:fillcard1}></img>
+                    <img src="images/downarrow.png" className="downarrow" id="arrow" onClick={text?removecard:fillcard1}></img>
                 </div>
                 <span className="card1span">{text}</span>
                 
