@@ -4,15 +4,7 @@ import './footer.scss'
 const Footer = () => {
   return (
     <div>
-                    <div className="bottom">
-                    <div className="loading">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-
-
-                    </div>
-                </div>
+           
     <div className="background">
     <div className="connection">
     <h2>Ready to Work?</h2>
