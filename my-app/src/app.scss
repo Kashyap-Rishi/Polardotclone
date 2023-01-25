@@ -1,3 +1,10 @@
 :root{
     --main-color:white;
 }
+.sinewaves{
+    position: absolute;
+    z-index: 2;
+    margin-top: -600px;
+    margin-left: 100px;
+    width: 100%;
+}
